@@ -28,5 +28,19 @@ header {
 
 footer {
     height: 75px;
-    background-color: #000;
+    background-color: black;
+    align-items: center;
+}
+
+#contacts{
+    text-align: center;
+    height: 500px;
+    margin-top: 250px;
+}
+.fab {
+    margin-top: 10px;
+    font-size: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
 }
