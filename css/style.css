@@ -44,7 +44,6 @@ header {
 }
 
 footer {
-<<<<<<< HEAD
     height: 75px;
     background-color: black;
     align-items: center;
@@ -61,8 +60,14 @@ footer {
     margin-right: 20px;
     cursor: pointer;
     color: white;
-=======
-	height: 75px;
-	background-color: #212529;
->>>>>>> d49e194f52036de665671ab2cdba55ed6f119b08
+}
+
+@media only screen and (max-width:600px) {
+footer {
+    height: auto;
+    width: auto;
+}
+.fab {
+    width: 50%;
+}
 }
