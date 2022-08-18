@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.nav-link a {
+    text-decoration: none;    
+}
+
+footer {
+    height: 75px;
+    background-color: #000;
+}
