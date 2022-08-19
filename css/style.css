@@ -167,6 +167,22 @@ footer a {
   text-indent: 5%;
 }
 
+.section-four {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+.life-story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w50 {
+  width: 50%;
+}
+
 @media only screen and (max-width: 600px) {
   header {
     height: 70px;
