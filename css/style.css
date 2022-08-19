@@ -8,50 +8,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.section-one {
-  display: flex;
-  width: 50%;
-  margin: 40px;
-  color: rgb(79, 77, 77);
-}
-
-.about {
-  align-items: left;
-}
-.section-two {
-  display: flex;
-  width: 50%;
-  margin: 40px;
-  justify-content: end;
-  color: rgb(79, 77, 77);
-}
-
-.achievements {
-  align-items: right;
-}
-
-.pic-A {
-  display: flex;
-  border-radius: 2%;
-  height: 70%;
-  filter: drop-shadow(5px 5px 8px black);
-  object-position: right;
-  position: absolute;
-  opacity: 0.7;
-  margin: 20px 100px;
-}
-
-.pic-B {
-  display: flex;
-  border-radius: 2%;
-  height: 70%;
-  filter: drop-shadow(5px 5px 8px black);
-  object-position: left;
-  position: absolute;
-  opacity: 0.7;
-  margin: 20px 100px;
-}
-
 header {
   background-color: #f8f9fa;
   height: 90px;
@@ -93,32 +49,38 @@ header {
   transition: 0.5s;
 }
 
-footer {
-  background-color: #212529;
-  width: 100%;
-  height: 75px;
+.section-one {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
-  left: 0;
+  width: 50%;
+  margin: 40px;
+  color: rgb(79, 77, 77);
 }
 
-footer a {
-  cursor: auto;
+.about {
+  align-items: left;
 }
 
-.fab {
-  font-size: 30px;
-  color: #f8f9fa;
-  margin: 0 20px;
-  cursor: pointer;
-  transition: 0.5s;
+.section-two {
+  display: flex;
+  width: 50%;
+  margin: 40px;
+  justify-content: end;
+  color: rgb(79, 77, 77);
 }
 
-.fab:hover {
-  color: #8338ec;
-  transition: 0.5s;
+.achievements {
+  align-items: right;
+}
+
+.pic-A {
+  display: flex;
+  border-radius: 2%;
+  height: 70%;
+  filter: drop-shadow(5px 5px 8px black);
+  object-position: right;
+  position: absolute;
+  opacity: 0.7;
+  margin: 20px 100px;
 }
 
 .experienceSection {
@@ -174,14 +136,43 @@ footer a {
   margin-left: 30px;
   color: rgb(79, 77, 77);
 }
+
 .life-story {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.w50 {
+.width-50 {
   width: 50%;
+}
+
+footer {
+  background-color: #212529;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+}
+
+footer a {
+  cursor: auto;
+}
+
+.fab {
+  font-size: 30px;
+  color: #f8f9fa;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.fab:hover {
+  color: #8338ec;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
