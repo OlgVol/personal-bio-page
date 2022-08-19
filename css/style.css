@@ -8,6 +8,32 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+.section-one{
+	display: flex;
+    width: 50%;
+  	margin: 40px;
+  	align-items: left;
+	color: rgb(79, 77, 77);
+}
+
+.h1{
+	font-family: "Poppins", sans-serif;
+	flex: 1;
+	margin-bottom: 30px;
+}
+.em{
+	flex: 1;
+	margin-bottom: 30px;
+}
+.pic-A {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	height: 80%;
+	opacity: 0.3;
+  }
+
 header {
 	margin-top: 25px;
 	display: flex;
