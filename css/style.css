@@ -8,30 +8,49 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.section-one {
-  display: flex;
-  width: 50%;
-  margin: 40px;
-  align-items: left;
-  color: rgb(79, 77, 77);
+.section-one{
+	display: flex;
+    width: 50%;
+  	margin: 40px;
+	color: rgb(79, 77, 77);
 }
 
-.h1 {
-  flex: 1;
-  margin-bottom: 30px;
+.about{
+  align-items: left;
 }
-.em {
-  flex: 1;
-  margin-bottom: 30px;
+.section-two{
+  display: flex;
+    width: 50%;
+  	margin: 40px;
+    justify-content: end;
+	color: rgb(79, 77, 77);
 }
+
+.achievements{
+  align-items: right;
+}
+
 .pic-A {
+  display: flex;
+  border-radius: 2%;
+  height: 70%;
+  filter: drop-shadow(5px 5px 8px black);
+  object-position: right;
   position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  height: 80%;
-  opacity: 0.3;
-}
+	opacity: 0.7;
+  margin: 20px 100px;
+  }
+
+  .pic-B {
+    display: flex;
+    border-radius: 2%;
+    height: 70%;
+    filter: drop-shadow(5px 5px 8px black);
+    object-position: left;
+    position: absolute;
+    opacity: 0.7;
+    margin: 20px 100px;
+    }
 
 header {
   background-color: #f8f9fa;
@@ -129,6 +148,7 @@ footer a {
   width: 30%;
   filter: drop-shadow(5px 5px 8px black);
 }
+
 .universityPic2 {
   display: flex;
   border-radius: 2%;
