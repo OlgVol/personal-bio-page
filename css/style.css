@@ -8,31 +8,30 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.section-one{
-	display: flex;
-    width: 50%;
-  	margin: 40px;
-  	align-items: left;
-	color: rgb(79, 77, 77);
+.section-one {
+  display: flex;
+  width: 50%;
+  margin: 40px;
+  align-items: left;
+  color: rgb(79, 77, 77);
 }
 
-.h1{
-	font-family: "Poppins", sans-serif;
-	flex: 1;
-	margin-bottom: 30px;
+.h1 {
+  flex: 1;
+  margin-bottom: 30px;
 }
-.em{
-	flex: 1;
-	margin-bottom: 30px;
+.em {
+  flex: 1;
+  margin-bottom: 30px;
 }
 .pic-A {
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: -1;
-	height: 80%;
-	opacity: 0.3;
-  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 80%;
+  opacity: 0.3;
+}
 
 header {
   background-color: #f8f9fa;
@@ -106,6 +105,8 @@ footer a {
 .experienceSection {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 40px;
+  color: rgb(79, 77, 77);
 }
 
 .experience {
@@ -118,7 +119,7 @@ footer a {
 
 .experienceHeader {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   font-size: 34px;
 }
 
@@ -126,7 +127,6 @@ footer a {
   display: flex;
   border-radius: 2%;
   width: 30%;
-  margin-left: 14px;
   filter: drop-shadow(5px 5px 8px black);
 }
 .universityPic2 {
