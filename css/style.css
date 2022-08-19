@@ -14,6 +14,7 @@ body {
   	margin: 40px;
 	color: rgb(79, 77, 77);
 }
+
 .about{
   align-items: left;
 }
@@ -21,11 +22,12 @@ body {
   display: flex;
     width: 50%;
   	margin: 40px;
-    text-align: right;
+    justify-content: end;
 	color: rgb(79, 77, 77);
 }
-.spaceBetween{
-  with:20%
+
+.achievements{
+  align-items: right;
 }
 
 .pic-A {
@@ -38,6 +40,17 @@ body {
 	opacity: 0.7;
   margin: 20px 100px;
   }
+
+  .pic-B {
+    display: flex;
+    border-radius: 2%;
+    height: 70%;
+    filter: drop-shadow(5px 5px 8px black);
+    object-position: left;
+    position: absolute;
+    opacity: 0.7;
+    margin: 20px 100px;
+    }
 
 header {
   background-color: #f8f9fa;
@@ -111,6 +124,8 @@ footer a {
 .experienceSection {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 40px;
+  color: rgb(79, 77, 77);
 }
 
 .experience {
@@ -123,7 +138,7 @@ footer a {
 
 .experienceHeader {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   font-size: 34px;
 }
 
@@ -131,9 +146,9 @@ footer a {
   display: flex;
   border-radius: 2%;
   width: 30%;
-  margin-left: 14px;
   filter: drop-shadow(5px 5px 8px black);
 }
+
 .universityPic2 {
   display: flex;
   border-radius: 2%;
